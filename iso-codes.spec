@@ -9,7 +9,7 @@ Name:       iso-codes
 # << macros
 
 Summary:    ISO code lists and translations
-Version:    3.38
+Version:    3.44
 Release:    1
 Group:      System/Base
 License:    LGPLv2+
