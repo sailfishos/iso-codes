@@ -9,13 +9,14 @@ Name:       iso-codes
 # << macros
 
 Summary:    ISO code lists and translations
-Version:    3.44
+Version:    3.46
 Release:    1
 Group:      System/Base
 License:    LGPLv2+
 BuildArch:  noarch
 URL:        http://alioth.debian.org/projects/pkg-isocodes/
 Source0:    http://pkg-isocodes.alioth.debian.org/downloads/iso-codes-%{version}.tar.xz
+Source99:   http://pkg-isocodes.alioth.debian.org/downloads/iso-codes-%{version}.tar.xz.sig
 Source100:  iso-codes.yaml
 Requires:   xml-common
 BuildRequires:  gettext >= 0.16
