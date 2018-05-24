@@ -7,8 +7,12 @@ License:    LGPLv2+
 BuildArch:  noarch
 URL:        https://salsa.debian.org/iso-codes-team/iso-codes
 Source0:    %{name}-%{version}.tar.xz
+
+# for /usr/share/xml
 Requires:   xml-common
-BuildRequires:  gettext >= 0.16
+
+BuildRequires: gettext >= 0.16
+BuildRequires: python3-base
 
 %description
 This package provides the ISO 639 Language code list, the ISO 4217
