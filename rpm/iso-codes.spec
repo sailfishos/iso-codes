@@ -5,7 +5,7 @@ Release:    1
 Group:      System/Base
 License:    LGPLv2+
 BuildArch:  noarch
-URL:        https://salsa.debian.org/iso-codes-team/iso-codes
+URL:        https://github.com/sailfishos/iso-codes
 Source0:    %{name}-%{version}.tar.xz
 
 # for /usr/share/xml
